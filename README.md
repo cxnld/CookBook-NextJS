@@ -13,7 +13,7 @@ Click [here](https://github.com/cxnld/CookBook-API) to visit the backend code.
 **SWR** hook serves cached data while fetching updated information.<br/>
 **Axios** sends HTTP requests to third-party APIs as well as our own server.<br/>
 **react-bootstrap** for some component styling.<br/>
-Deplyed using Vercel.
+Deplyed using **Vercel**.
 
 #### Backend Features:
 A RESTful API created with **Express.js** handles incoming requests.<br/>
