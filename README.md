@@ -13,16 +13,16 @@ User information modeled by Mongoose and stored in MongoDB Atlas.
 
 #### Frontend Features:
 
-**Next.js** as main React framework.
-**Redux Toolkit** manages login state application.
-**SWR** hook serves cached information while fetching updated info.
-**Axios** sends HTTP requests to third-party APIs as well as our own server.
-**react-bootstrap** for some component styling.
+**Next.js** as main React framework.<br/>
+**Redux Toolkit** manages login state application.<br/>
+**SWR** hook serves cached information while fetching updated info.<br/>
+**Axios** sends HTTP requests to third-party APIs as well as our own server.<br/>
+**react-bootstrap** for some component styling.<br/>
 Deplyed using Vercel.
 
 #### Backend Features:
-A RESTful API created with Express.js handles incoming requests.
-User password is hashed with bcrypt.
-JSON Web Tokens are used to authenticate the user each time they login.
-User information is modeled by Mongoose and stored in MongoDB Atlas.
-Deployed using Serverless and AWS Lambda.
+A RESTful API created with Express.js handles incoming requests.<br/>
+User password is hashed with bcrypt.<br/>
+JSON Web Tokens are used to authenticate the user each time they login.<br/>
+User information is modeled by Mongoose and stored in MongoDB Atlas.<br/>
+Deployed using Serverless and AWS Lambda.<br/>
