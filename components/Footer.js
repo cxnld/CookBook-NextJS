@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer>
-            Copyright 2021 CookBook
+            CookBook 2021. A personal project by <a href="https://github.com/cxnld">github.com/cxnld</a>.
         </footer>
     )
 }
