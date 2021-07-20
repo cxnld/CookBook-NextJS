@@ -52,6 +52,10 @@ footer {
     border-top: 1px solid #eaeaea;
 }
 
+h5 {
+    text-align: center;
+}
+
 .recipe-header {
     display: flex;
     align-items: center;
