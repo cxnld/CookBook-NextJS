@@ -21,3 +21,7 @@ User password is hashed with **bcrypt**.<br/>
 **JSON Web Tokens** are used to authenticate the user each time they login.<br/>
 User information is modeled by **Mongoose** and stored in **MongoDB Atlas**.<br/>
 Deployed using **Serverless** framework and **AWS Lambda**.<br/>
+
+#### Screenshots:
+![recipes](screenshots/recipes.PNG)
+![new](screenshots/new.PNG)
