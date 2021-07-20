@@ -1,0 +1,64 @@
+.card {
+    height: 340px;
+    width: 320px;
+    margin: 10px 10px 30px;
+    cursor: pointer;
+}
+
+.image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.body {
+    padding: 15px;
+}
+
+.overview {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 7%;
+    width: 100%;
+    padding: 20px;
+}
+
+.formContainer {
+    height: auto;
+    max-height: 90%;
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.recipeContainer {
+    height: 95%;
+    width: 80%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.recipeContainer .image {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    
+    margin-bottom: 25px;
+    border-radius: 10px;
+}

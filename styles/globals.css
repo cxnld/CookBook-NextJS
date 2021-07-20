@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body {
+    background: #f2f2f2;
+    color: #333;
+    font-family: "Nunito";
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.content {
+    max-width: 75%;
+    margin: 0 auto;
+}
+.recipeContent {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 10px auto 50px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    margin-left: 25px;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+nav .logo h1 {
+    margin: 0px 0px 0px 10px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+    color: #777;
+    border-top: 1px solid #eaeaea;
+}
+
+.recipe-header {
+    display: flex;
+    align-items: center;
+}
+.recipe-header h1 {
+    margin-right: auto;
+}
+
+.recipe-header button {
+    border-radius: 25px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.not-found {
+    text-align: center;
+}
+
+.not-found a {
+    color: #4979ff;
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}

@@ -1,0 +1,1 @@
+export const port = 'https://b5wpsg2ij1.execute-api.us-west-1.amazonaws.com/dev'

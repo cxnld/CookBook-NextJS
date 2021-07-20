@@ -1,0 +1,34 @@
+.newRecipeContainer {
+    background-color: white;
+    max-width: 70%;
+    padding: 30px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.instructionBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.instructionTextArea {
+    margin: 0px 5px 0px 0px;
+    width: 100%;
+}
+
+.rightAlign {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.editHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.editHeader h1 {
+    margin-right: auto;
+}
