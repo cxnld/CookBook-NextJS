@@ -20,7 +20,7 @@ const Recipes = () => {
         } else {
             setJWT(sessionStorage.getItem("jwt"))
         }
-    }, [])
+    }, [router])
 
     if (error) return <h2>Loading Failed</h2>
     if (!data) return <Spinner animation="border"/>

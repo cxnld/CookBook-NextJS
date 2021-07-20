@@ -4,7 +4,7 @@ import styles from '../../styles/Card.module.css'
 
 const GridElement = ({ recipe }) => {
     return (
-        <Link href={`/recipes/${recipe._id}`}>
+        <Link href={`/recipes/${recipe._id}`} passHref>
             <Card className={styles.card}>
                 <Card.Img className={styles.image} variant="top" src={recipe.image} />
                 

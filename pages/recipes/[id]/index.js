@@ -22,7 +22,7 @@ const RecipeDetails = () => {
         } else {
             setJWT(sessionStorage.getItem("jwt"))
         }
-    }, [])
+    }, [router])
 
     if (error) return <h2>Loading Failed</h2>
     if (!data) return <Spinner animation="border"/>
@@ -47,7 +47,7 @@ const RecipeDetails = () => {
                             </div>
                     ))}
 
-                    <Link href={`/recipes/${id}/edit`}>
+                    <Link href={`/recipes/${id}/edit`} passHref>
                         <Button variant="secondary" style={{marginTop: '10px'}}>Edit</Button>
                     </Link>
                 </div>

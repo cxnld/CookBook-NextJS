@@ -83,7 +83,7 @@ const EditRecipe = () => {
                 setImage(data.image)
             }
         }
-    }, [data])
+    }, [router, data])
 
     if (error) return <h2>Loading Failed</h2>
     if (!data) return <Spinner animation="border"/>
@@ -134,7 +134,7 @@ const EditRecipe = () => {
                         </Form.Group>
 
                         <div className={styles.rightAlign}>
-                            <Link href="/recipes"><Button variant="light" >Cancel</Button></Link>
+                            <Link href="/recipes" passHref><Button variant="light" >Cancel</Button></Link>
                             <Button variant="primary" type="submit" style={{marginLeft: '10px'}}>Update</Button>
                         </div>
                     </Form>

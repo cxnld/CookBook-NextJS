@@ -67,8 +67,8 @@ const Login = () => {
                     <Button variant="primary" type="submit" block>Login</Button>
                 </Form>
 
-                <Link href="/register">
-                    <Button variant="link" block>Don't have an account? Click to register.</Button>
+                <Link href="/register" passHref>
+                    <Button variant="link" block>Don&apos;t have an account? Click to register.</Button>
                 </Link>
             </div>
         </>

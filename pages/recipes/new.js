@@ -23,7 +23,7 @@ const NewRecipe = () => {
             console.log('Not logged in, redirecting to homepage.')
             router.push('/')
         }
-    }, [])
+    }, [router])
 
     const handleInputChange = (index, event) => {
         const values = [...instructions];
@@ -60,8 +60,6 @@ const NewRecipe = () => {
         .catch(err => console.log(err))
 
     }
-
-
 
     return (
         <>
@@ -106,7 +104,7 @@ const NewRecipe = () => {
                     </Form.Group>
 
                     <div className={styles.rightAlign}>
-                        <Link href="/recipes"><Button variant="light" >Cancel</Button></Link>
+                        <Link href="/recipes" passHref><Button variant="light" >Cancel</Button></Link>
                         <Button variant="primary" type="submit" style={{marginLeft: '10px'}}>Create</Button>
                     </div>
                 </Form>

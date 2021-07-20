@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 import { useSelector, useDispatch } from 'react-redux'
 
-import { sign_out } from '../../redux_toolkit/slices/loginSlice'
-import { clear_recipes } from '../../redux_toolkit/slices/recipeSlice'
+import { sign_out } from '../redux_toolkit/slices/loginSlice'
+import { clear_recipes } from '../redux_toolkit/slices/recipeSlice'
 
 
 const Navbar = () => {
@@ -50,9 +50,9 @@ const Navbar = () => {
 
     return (
         <nav>
-            <Link href="/">
+            <Link href="/" passHref>
                 <div className="logo">
-                    <Image src="/favicon.ico" width={40} height={40} />
+                    <Image src="/favicon.ico" width={40} height={40} alt="sushiicon"/>
                     <h1>CookBook</h1>
                 </div>
             </Link>

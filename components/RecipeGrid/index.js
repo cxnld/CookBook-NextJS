@@ -8,7 +8,7 @@ const RecipeGrid = ({ recipes }) => {
         <div>
             <div className="recipe-header">
                 <h1>My Recipes</h1>
-                <Link href="/recipes/new">
+                <Link href="/recipes/new" passHref>
                     <Button variant="primary">New Recipe</Button>
                 </Link>
             </div>

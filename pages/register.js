@@ -80,7 +80,7 @@ const Register = () => {
                     <Button variant="primary" type="submit" block>Register</Button>
                 </Form>
 
-                <Link href="/login">
+                <Link href="/login" passHref>
                     <Button variant="link" block>Already have an account? Click to login.</Button>
                 </Link>
 
