@@ -40,7 +40,7 @@ const Recipes = () => {
                     </Link>
                 </div>
 
-                { data.length == 0 && <h5>You have no recipes.</h5> }
+                { data.length == 0 && <h5 className="norecipe">You have no recipes.</h5> }
 
                 <RecipeGrid recipes={data}/>
             </>
