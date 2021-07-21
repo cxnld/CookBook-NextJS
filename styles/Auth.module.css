@@ -1,5 +1,6 @@
 .loginContainer {
     background-color: white;
+    min-width: 350px;
     max-width: 25%;
     padding: 30px;
     border-radius: 15px;
