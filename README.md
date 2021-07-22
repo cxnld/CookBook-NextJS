@@ -24,4 +24,4 @@ Deployed using **Serverless** framework and **AWS Lambda**.<br/>
 
 #### Screenshots:
 ![recipes](screenshots/recipes.PNG)
-![new](screenshots/new.PNG)
+![new](screenshots/new.png)
